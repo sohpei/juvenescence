@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Text Distortion Effects using Blotter.js
 
-You can use the [editor on GitHub](https://github.com/sohpei/juvenescence/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Some text distortion experiments using the [Blotter.js](https://blotter.js.org/) library.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Text Distortion Effects](https://tympanus.net/codrops/wp-content/uploads/2019/02/TextDistortionEffects_featured.jpg)
 
-### Markdown
+[Article on Codrops](https://tympanus.net/codrops/?p=38200)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Demo](http://tympanus.net/Development/TextDistortionEffects/)
 
-```markdown
-Syntax highlighted code block
+## Credits
 
-# Header 1
-## Header 2
-### Header 3
+- [Blotter.js](https://blotter.js.org/)
+- Images from [Unsplash.com](https://unsplash.com/)
+- [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
 
-- Bulleted
-- List
+## License
+This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
-1. Numbered
-2. List
+## Misc
 
-**Bold** and _Italic_ and `Code` text
+Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[© Codrops 2019](http://www.codrops.com)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sohpei/juvenescence/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
