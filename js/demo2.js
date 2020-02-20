@@ -57,10 +57,12 @@
     const textEl = elem.querySelector('span.content__text-inner');
     
     const createBlotterText = () => {
+        
         const text = new Blotter.Text(textEl.innerHTML, {
-            family : "'Playfair Display',serif",
+            
+            family : "'Cormorant Garamond',serif",
             weight: 900,
-            size : 140,
+            size : 90,
             paddingLeft: 100,
             paddingRight: 100,
             paddingTop: 100,
@@ -85,7 +87,7 @@
             const relmousepos = {x : mousePos.x - docScrolls.left, y : mousePos.y - docScrolls.top };
             const mouseDistance = MathUtils.distance(lastMousePosition.x, relmousepos.x, lastMousePosition.y, relmousepos.y);
             
-            volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(0.1, 0, 100, 0, mouseDistance),0.9), 0.05);
+            volatility = MathUtils.lerp(volatility, Math.min(MathUtils.lineEq(0.3, 0, 100, 0, mouseDistance),0.9), 0.05);
             material.uniforms.uVolatility.value = volatility;
 
             for (let i = 0; i <= imgsTotal - 1; ++i) {
@@ -102,7 +104,7 @@
 
     WebFont.load({
         google: {
-            families: ['Playfair+Display:900']
+            families: ['Cormorant Garamond:900']
         },
         active: () => createBlotterText()
     });
